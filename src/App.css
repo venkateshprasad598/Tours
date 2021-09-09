@@ -1,0 +1,102 @@
+* {
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+/*  */
+/* Item  */
+/*  */
+
+.tour {
+  font-size: xx-large;
+  margin-top: 4rem;
+}
+
+.tour__line {
+  width: 6rem;
+  background-color: rgb(43, 107, 226);
+  height: 0.25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*  */
+/* Items */
+/*  */
+.tours {
+  margin-left: auto;
+  margin-right: auto;
+  margin: 2rem;
+  min-height: 30rem;
+  box-shadow: 3px 3px 10px 10px rgb(228, 226, 226);
+  max-width: 50rem;
+}
+@media (min-width: 800px) {
+  .tours {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
+
+.image {
+  object-fit: cover;
+  height: 20rem;
+  width: 100%;
+}
+
+.tours__title {
+  display: flex;
+  align-items: flex-start;
+  font-size: 1.2rem;
+  font-weight: 700;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.tours__info {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.readMore {
+  /* background-color: rgb(0, 183, 255); */
+  border: none;
+  padding: 0.15rem;
+  border-radius: 3px;
+  color: rgba(24, 176, 187, 0.925);
+  margin: 0.2rem;
+}
+
+.tours__button {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0.5rem;
+  border-radius: 3px;
+  border: none;
+  border: 1px solid rgb(250, 47, 32);
+  color: red;
+}
+.refresh__button {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0.5rem;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(0, 110, 255);
+  color: white;
+  margin-top: 0.5rem;
+}
+
+.tours__price {
+  color: rgb(0, 119, 255);
+  font-weight: 600;
+}
