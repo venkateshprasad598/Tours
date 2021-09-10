@@ -5,10 +5,6 @@ import Axios from "axios";
 import Item from "./components/Item";
 import Loading from "./components/Loading";
 
-// const api = axios.create({
-//   baseURL: "https://course-api.com/react-tours-project",
-// });
-
 function App() {
   const [tours, setTours] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
